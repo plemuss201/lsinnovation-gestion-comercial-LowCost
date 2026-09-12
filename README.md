@@ -1,41 +1,32 @@
-# LS Gestión Comercial (Low Cost)
+# LS Gestión Comercial v1.1
 
-Aplicación de control de ventas y gestión comercial desarrollada por **LS Innovation**.
+Aplicación de control de ventas by **LS Innovation**.
 
-**Repositorio:** https://github.com/plemuss201/lsinnovation-gestion-comercial-LowCost
+## Cómo descargar y usar
 
-## Características
+1. Descarga **estos 2 archivos** en la **misma carpeta**:
+   - `index.html`
+   - `app.js`
 
-- Dashboard con indicadores en tiempo real
-- Gestión de Clientes
-- Gestión de Productos e inventario
-- Módulo de Ventas (borrador → confirmación con descuento de stock)
-- Reportes básicos
-- Identidad visual de LS Innovation
-- Datos de demostración incluidos
-- Funciona 100% offline (localStorage)
+2. Abre `index.html` con doble clic (Chrome, Edge o Firefox).
 
-## Cómo usar la demo
+> Importante: los dos archivos deben estar juntos. Si solo abres index.html sin app.js, no funcionará.
 
-1. Descarga el archivo `index.html` de este repositorio.
-2. Ábrelo en cualquier navegador moderno (Chrome, Edge, Firefox, Safari).
-3. No requiere instalación ni servidor.
+## Módulos
 
-## Estructura del proyecto
+- Dashboard
+- Clientes
+- Productos
+- Ventas (ventana grande y movible)
+- Cuentas por Cobrar
+- Inventario Inicial (plantilla CSV)
+- Reportes
+- Configuración (logo y nombre de empresa)
+- Facturas imprimibles Carta y POS
 
-```
-├── index.html                          # Aplicación completa (demo)
-├── LSInnovation-logo-v2.svg            # Logo completo
-└── LSInnovation-monogram-v2.svg        # Monograma
-```
+## Repositorio
 
-## Roadmap
-
-- [ ] Empaquetado en .exe (escritorio)
-- [ ] Base de datos SQLite persistente
-- [ ] Exportación a Excel / PDF
-- [ ] Multi-usuario y permisos
+https://github.com/plemuss201/lsinnovation-gestion-comercial-LowCost
 
 ---
-
 © 2026 LS Innovation — https://lsinnovations.tech
