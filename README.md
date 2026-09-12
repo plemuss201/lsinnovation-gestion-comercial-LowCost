@@ -2,6 +2,8 @@
 
 Aplicación de control de ventas y gestión comercial desarrollada por **LS Innovation**.
 
+**Repositorio:** https://github.com/plemuss201/lsinnovation-gestion-comercial-LowCost
+
 ## Características
 
 - Dashboard con indicadores en tiempo real
@@ -15,13 +17,14 @@ Aplicación de control de ventas y gestión comercial desarrollada por **LS Inno
 
 ## Cómo usar la demo
 
-1. Abre el archivo `index.html` en cualquier navegador moderno.
-2. No requiere instalación ni servidor.
+1. Descarga el archivo `index.html` de este repositorio.
+2. Ábrelo en cualquier navegador moderno (Chrome, Edge, Firefox, Safari).
+3. No requiere instalación ni servidor.
 
-## Estructura
+## Estructura del proyecto
 
 ```
-├── index.html                          # Aplicación completa
+├── index.html                          # Aplicación completa (demo)
 ├── LSInnovation-logo-v2.svg            # Logo completo
 └── LSInnovation-monogram-v2.svg        # Monograma
 ```
@@ -31,7 +34,7 @@ Aplicación de control de ventas y gestión comercial desarrollada por **LS Inno
 - [ ] Empaquetado en .exe (escritorio)
 - [ ] Base de datos SQLite persistente
 - [ ] Exportación a Excel / PDF
-- [ ] Multi-usuario
+- [ ] Multi-usuario y permisos
 
 ---
 
