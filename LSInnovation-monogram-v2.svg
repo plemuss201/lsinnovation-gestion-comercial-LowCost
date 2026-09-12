@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">LSInnovation — monograma versión 2</title>
+  <desc id="desc">Monograma entrelazado LS en azul profundo y turquesa.</desc>
+  <defs>
+    <mask id="s-cutout" maskUnits="userSpaceOnUse" x="0" y="0" width="280" height="280">
+      <rect width="280" height="280" fill="white"/>
+      <path d="M43 31H86V203H153V246H43Z" fill="black" stroke="black" stroke-width="14" stroke-linejoin="miter"/>
+    </mask>
+  </defs>
+  <g transform="translate(20 20)">
+    <path
+      d="M106 31H241L203 75H126C111 75 102 83 102 94C102 105 111 112 126 112H165C207 112 235 137 235 174C235 216 201 246 156 246H75L113 202H156C176 202 188 193 188 178C188 164 176 156 156 156H121C79 156 52 132 52 96C52 58 82 31 126 31Z"
+      fill="#102A43"
+      mask="url(#s-cutout)"
+    />
+    <path d="M43 31H86V203H153V246H43Z" fill="#00A9B7"/>
+    <path d="M153 203L116 246H153Z" fill="#087F8C"/>
+    <path d="M203 75L241 31H209L171 75Z" fill="#1A3D5C"/>
+  </g>
+</svg>
