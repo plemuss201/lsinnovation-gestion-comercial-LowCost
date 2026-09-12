@@ -4,15 +4,17 @@ Aplicación de control de ventas by **LS Innovation**.
 
 ## Cómo descargar y usar
 
-1. Descarga **estos 2 archivos** en la **misma carpeta**:
-   - `index.html`
-   - `app.js`
+Descarga **estos 3 archivos** y ponlos en la **misma carpeta**:
 
-2. Abre `index.html` con doble clic (Chrome, Edge o Firefox).
+1. `index.html`
+2. `app-part1.js`
+3. `app-part2.js`
 
-> Importante: los dos archivos deben estar juntos. Si solo abres index.html sin app.js, no funcionará.
+Luego abre `index.html` con doble clic (Chrome, Edge o Firefox).
 
-## Módulos
+> Los 3 archivos deben estar juntos. Si falta alguno, no funcionará.
+
+## Módulos incluidos
 
 - Dashboard
 - Clientes
