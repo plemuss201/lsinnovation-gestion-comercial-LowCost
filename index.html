@@ -84,8 +84,14 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cian);bo
 .two-cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:1100px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.two-cols{grid-template-columns:1fr}}
 @media(max-width:768px){.sidebar{width:64px}.brand-text,.nav-item span{display:none}.main{margin-left:64px}.kpi-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.venta-modal{width:98vw;top:8px}}
-@media print{body *{visibility:hidden}.print-area,.print-area *{visibility:visible}.print-area{position:absolute;left:0;top:0;width:100%}.no-print{display:none!important}}
-.print-carta{width:210mm;min-height:270mm;padding:14mm 16mm;font-family:'Segoe UI',Arial,sans-serif;color:#222;background:#fff}
+@media print{
+  @page{size:letter;margin:0}
+  body *{visibility:hidden}
+  .print-area,.print-area *{visibility:visible}
+  .print-area{position:absolute;left:0;top:0;width:100%}
+  .no-print{display:none!important}
+}
+.print-carta{width:210mm;min-height:277mm;padding:0;font-family:'Segoe UI',Arial,sans-serif;color:#243B53;background:#fff}
 .print-pos{width:80mm;padding:6mm 5mm;font-family:'Courier New',monospace;font-size:11px;color:#111;background:#fff}
 </style>
 </head>
