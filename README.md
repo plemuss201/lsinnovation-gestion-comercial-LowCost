@@ -12,19 +12,14 @@ Descarga **estos 3 archivos** y ponlos en la **misma carpeta**:
 
 Luego abre `index.html` con doble clic (Chrome, Edge o Firefox).
 
-> Los 3 archivos deben estar juntos. Si falta alguno, no funcionará.
+> Los 3 archivos deben estar juntos.
 
-## Módulos incluidos
+## Novedades
 
-- Dashboard
-- Clientes
-- Productos
-- Ventas (ventana grande y movible)
-- Cuentas por Cobrar
-- Inventario Inicial (plantilla CSV)
-- Reportes
-- Configuración (logo y nombre de empresa)
-- Facturas imprimibles Carta y POS
+- **Factura carta** rediseñada estilo profesional (layout tipo documento comercial), usando logo y datos de la empresa configurada.
+- Factura POS (ticket).
+- Configuración de empresa (nombre, logo, NIT, dirección).
+- Cuentas por cobrar, inventario inicial CSV, reportes.
 
 ## Repositorio
 
